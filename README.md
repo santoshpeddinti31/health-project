@@ -2,11 +2,12 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Healthcare. Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Note: This design is currently optimized only for laptop (desktop) view. Due to time constraints and other pending tasks, I was unable to implement responsive design. However, I’m more than willing to make it responsive if required.
 
-## Expanding the ESLint configuration
+I kindly request your understanding regarding the current situation. I'm looking forward to your feedback. If there are any changes or additional requirements, please feel free to reach out — I’ll be happy to update accordingly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Final output:
+
+![alt text](health_care.png)

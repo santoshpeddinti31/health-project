@@ -33,7 +33,7 @@ function AnatomySection() {
             <img src={lungs} alt="img1" />
             Lungs
           </span>
-          <p>Date: 26 Feb 2025</p>
+          <p>Date: 26 Oct 2025</p>
           <input id="slider" min="0" value="60" max="100" type="range" />
         </div>
         <div id="teeth" className="card1">
@@ -41,7 +41,7 @@ function AnatomySection() {
             <img src={teeth} alt="img3" />
             Teeth
           </span>
-          <p>Date: 26 Feb 2025</p>
+          <p>Date: 26 Oct 2025</p>
           <input id="slider" min="0" value="60" max="100" type="range" />
         </div>
         <div id="bone" className="card1">
@@ -49,7 +49,7 @@ function AnatomySection() {
             <img src={bone} alt="img3" />
             Bone
           </span>
-          <p>Date: 26 Feb 2025</p>
+          <p>Date: 26 Oct 2025</p>
           <input id="slider" min="0" value="60" max="100" type="range" />
         </div>
         <span id="details">
