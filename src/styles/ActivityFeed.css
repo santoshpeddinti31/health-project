@@ -1,0 +1,115 @@
+.active-cont {
+  background-color: #f6faff;
+  height: 11rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.active-cont h1 {
+  font-size: 1rem;
+}
+
+.tue {
+  background-color: aqua;
+  width: 0.3rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: -0.2rem;
+  margin-right: 0.2rem;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#sky {
+  background-color: aqua;
+}
+
+#gry {
+  background-color: rgb(213, 211, 211);
+  /* border: 3px solid red; */
+  height: 2rem;
+  width: 0.3rem;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: -0.2rem;
+  margin-right: 0.2rem;
+}
+.wed {
+  margin-top: 2rem;
+}
+#grays span:not(.tue, #gry) {
+  width: 0.3rem;
+  height: 2rem;
+  background-color: blue;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: -0.2rem;
+  margin-right: 0.2rem;
+}
+
+#thur {
+  margin-top: 2rem;
+}
+
+.gray {
+  width: 0.3rem;
+  height: 4rem;
+  background-color: rgb(213, 211, 211);
+  border-radius: 1rem;
+  margin: 0.3rem;
+}
+.blue {
+  width: 0.3rem;
+  height: 2.5rem;
+  background-color: aqua;
+  border-radius: 1rem;
+  margin-left: 0.3rem;
+}
+.bars {
+  display: flex;
+  align-items: center;
+}
+.chart1 {
+  display: flex;
+  flex-direction: column;
+  width: 4rem;
+  text-align: center;
+}
+.chart1 p {
+  font-size: 0.7rem;
+}
+#grays {
+  margin-top: 0.6rem;
+}
+
+.grays span {
+  width: 0.3rem;
+  height: 1.2rem;
+  background-color: rgb(213, 211, 211);
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 0.3rem;
+}
+#barone {
+  margin-top: 2.3rem;
+}
+.grey {
+  width: 0.3rem;
+  height: 1.5rem;
+  background-color: rgb(213, 211, 211);
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  margin-top: 4rem;
+}
+
+.graph {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}

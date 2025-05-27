@@ -1,0 +1,39 @@
+.side-cont {
+  background-color: #f6faff;
+  padding: 2rem;
+  padding-top: 6rem;
+  width: 15rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  height: 46rem;
+}
+.side-cont ul {
+  list-style-type: none;
+  padding-left: 2rem;
+}
+.side-cont li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  padding-top: 1rem;
+  font-family: sans-serif;
+  color: gray;
+}
+.side-cont li a {
+  text-decoration: none;
+  color: gray;
+}
+#gen,
+#set {
+  font-size: 0.8rem;
+}
+#active,
+#active a {
+  color: #000;
+  font-weight: bold;
+}
+
+.side-cont li:last-child {
+  margin-top: 15rem;
+}

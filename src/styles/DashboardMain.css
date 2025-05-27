@@ -1,0 +1,28 @@
+.cont1 {
+  display: flex;
+  width: 74rem;
+  border-radius: 1rem;
+}
+.db-cont2 {
+  padding: 1rem;
+  background-color: #f6faff;
+  margin-left: 2rem;
+  width: 100%;
+  padding-top: 7.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.db-cont {
+  padding-top: 7rem;
+}
+.db-cont span {
+  font-size: 0.7rem;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.db-cont h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
