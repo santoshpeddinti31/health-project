@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    docker {
+      image 'node:18-alpine'  // ✅ Node.js and npm available
+      args '-v /var/run/docker.sock:/var/run/docker.sock -v ~/.kube:/root/.kube'  // Mount Docker and kube config
+    }
+  }
 
   environment {
     IMAGE_NAME = 'react-app'
@@ -41,10 +46,10 @@ pipeline {
 
   post {
     success {
-      echo " Deployment successful!"
+      echo "✅ Deployment successful!"
     }
     failure {
-      echo " Pipeline failed. Please check the logs."
+      echo "❌ Pipeline failed. Please check the logs."
     }
   }
 }
