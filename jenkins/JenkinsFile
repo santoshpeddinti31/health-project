@@ -1,13 +1,15 @@
-
-
-
 pipeline {
   agent any
+
+  environment {
+    IMAGE_NAME = 'react-app'
+    IMAGE_TAG = "latest"
+  }
 
   stages {
     stage('Checkout Code') {
       steps {
-        git 'https://github.com/santoshpeddinti31/health-project.git'
+        git branch: 'main', url: 'https://github.com/santoshpeddinti31/health-project.git'
       }
     }
 
@@ -25,7 +27,7 @@ pipeline {
 
     stage('Build Docker Image') {
       steps {
-        sh 'docker build -t react-app:latest .'
+        sh "docker build -t ${IMAGE_NAME}:${IMAGE_TAG} ."
       }
     }
 
@@ -34,6 +36,15 @@ pipeline {
         sh 'kubectl apply -f deployment.yaml'
         sh 'kubectl apply -f service.yaml'
       }
+    }
+  }
+
+  post {
+    success {
+      echo " Deployment successful!"
+    }
+    failure {
+      echo " Pipeline failed. Please check the logs."
     }
   }
 }
